@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-01T15:14:20 IST" name="Default suite" finished-at="2021-03-01T15:14:29 IST" duration-ms="9103">
+    <groups>
+    </groups>
+    <test started-at="2021-03-01T15:14:20 IST" name="Default test" finished-at="2021-03-01T15:14:29 IST" duration-ms="9103">
+      <class name="com.FindingHospital.testCases.Homepage">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:11:46 IST" name="SetDriver" finished-at="2021-03-01T15:14:20 IST" duration-ms="153724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method is-config="true" signature="SetProperty()[pri:0, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:20 IST" name="SetProperty" finished-at="2021-03-01T15:14:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetProperty -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:20 IST" name="verifyHomePageTitle" finished-at="2021-03-01T15:14:20 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "com.FindingHospital.testCases.Homepage.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "com.FindingHospital.testCases.Homepage.driver" is null
+at com.FindingHospital.testCases.Homepage.verifyHomePageTitle(Homepage.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="city()[pri:2, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:20 IST" name="city" finished-at="2021-03-01T15:14:20 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- city -->
+        <test-method signature="searchhospital()[pri:3, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:20 IST" name="searchhospital" finished-at="2021-03-01T15:14:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhospital -->
+        <test-method signature="callHospitalSearch()[pri:4, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:20 IST" name="callHospitalSearch" finished-at="2021-03-01T15:14:28 IST" duration-ms="8045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callHospitalSearch -->
+        <test-method signature="callDiagnosispage()[pri:5, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:28 IST" name="callDiagnosispage" finished-at="2021-03-01T15:14:29 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callDiagnosispage -->
+        <test-method signature="callCorporateWellness()[pri:6, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:29 IST" name="callCorporateWellness" finished-at="2021-03-01T15:14:29 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCorporateWellness -->
+        <test-method signature="CloseBrowser()[pri:7, instance:com.FindingHospital.testCases.Homepage@d554c5f]" started-at="2021-03-01T15:14:29 IST" name="CloseBrowser" finished-at="2021-03-01T15:14:29 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.FindingHospital.testCases.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
